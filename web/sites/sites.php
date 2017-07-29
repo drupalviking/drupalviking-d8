@@ -53,3 +53,4 @@
  * @see \Drupal\Core\DrupalKernel::getSitePath()
  * @see https://www.drupal.org/documentation/install/multi-site
  */
+$sites['drupalviking-d8.com.dd'] = 'default';
