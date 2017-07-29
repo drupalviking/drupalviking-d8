@@ -1,0 +1,20 @@
+uuid: c78c8605-d62e-4da0-96c2-15c4a270202e
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - media_entity_image
+third_party_settings:
+  crop:
+    image_field: field_image_source
+id: images
+label: Images
+description: ''
+type: image
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_image_source
+  gather_exif: false
+field_map: {  }
