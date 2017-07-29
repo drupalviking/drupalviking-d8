@@ -12,19 +12,28 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  crop: 0
   ctools: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
+  entity_browser: 0
+  entity_browser_enhanced: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
+  focal_point: 0
   help: 0
   history: 0
   image: 0
+  image_widget_crop: 0
   link: 0
+  media_entity: 0
+  media_entity_document: 0
+  media_entity_image: 0
   menu_ui: 0
   module_filter: 0
   node: 0
@@ -43,6 +52,7 @@ module:
   tour: 0
   update: 0
   user: 0
+  video_embed_field: 0
   views_ui: 0
   menu_link_content: 1
   pathauto: 1
