@@ -9,12 +9,13 @@ dependencies:
     - views
 name: image_browser
 label: 'Image browser'
-display: iframe
+display: modal
 display_configuration:
   width: '650'
   height: '500'
   link_text: 'Select entities'
   auto_open: true
+  path: /entity-browser/iframe/image_browser
 selection_display: no_display
 selection_display_configuration: {  }
 widget_selector: tabs
