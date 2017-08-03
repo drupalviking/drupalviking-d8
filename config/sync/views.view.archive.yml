@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - node.type.blog
+    - system.menu.main
   module:
     - node
     - user
@@ -273,6 +274,15 @@ display:
         options: {  }
       path: archive
       display_extenders: {  }
+      menu:
+        type: normal
+        title: Archive
+        description: ''
+        expanded: false
+        parent: ''
+        weight: 10
+        context: '0'
+        menu_name: main
     cache_metadata:
       contexts:
         - 'languages:language_interface'
