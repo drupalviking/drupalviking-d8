@@ -1,0 +1,12 @@
+uuid: f1410c9d-6ee9-4d2c-9b57-9b393940114c
+langcode: en
+status: true
+dependencies: {  }
+label: 'Portrait to Landscape'
+id: portrait_to_landscape
+description: ''
+aspect_ratio: '16:9'
+soft_limit_width: 480
+soft_limit_height: 270
+hard_limit_width: null
+hard_limit_height: null

@@ -1,0 +1,15 @@
+uuid: b1009a6d-028a-4591-9238-fb232ac1ffa6
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+name: 480x270
+label: 480x270
+effects:
+  e169f760-cdd3-47de-a8f5-15dd5af09e2f:
+    uuid: e169f760-cdd3-47de-a8f5-15dd5af09e2f
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: portrait_to_landscape
