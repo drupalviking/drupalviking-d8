@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - entity_browser.browser.browse_files
+    - entity_browser.browser.image_browser
     - field.field.node.blog.body
     - field.field.node.blog.field_category
     - field.field.node.blog.field_main_image
@@ -35,17 +35,14 @@ content:
     third_party_settings: {  }
   field_category:
     weight: 1
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: options_select
     region: content
   field_main_image:
     weight: 2
     settings:
-      entity_browser: browse_files
+      entity_browser: image_browser
       field_widget_display: label
       field_widget_edit: true
       field_widget_remove: true
@@ -62,7 +59,7 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: entity_reference_autocomplete_tags
     region: content
   path:
     type: path
