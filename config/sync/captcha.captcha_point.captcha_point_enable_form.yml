@@ -1,0 +1,7 @@
+uuid: d260b1b4-8ca2-4e65-bf9c-63ad17f89e91
+langcode: en
+status: true
+dependencies: {  }
+formId: captcha_point_enable_form
+captchaType: recaptcha/reCAPTCHA
+label: captcha_point_enable_form

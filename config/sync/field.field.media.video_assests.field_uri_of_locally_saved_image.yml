@@ -1,0 +1,19 @@
+uuid: 271a36df-55a2-40d3-9766-b87f328a02fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_uri_of_locally_saved_image
+    - media_entity.bundle.video_assests
+id: media.video_assests.field_uri_of_locally_saved_image
+field_name: field_uri_of_locally_saved_image
+entity_type: media
+bundle: video_assests
+label: 'URI of locally saved image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

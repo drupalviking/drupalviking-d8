@@ -3,13 +3,14 @@ langcode: en
 status: true
 dependencies:
   module:
-    - crop
+    - focal_point
 name: 480x270
 label: 480x270
 effects:
-  e169f760-cdd3-47de-a8f5-15dd5af09e2f:
-    uuid: e169f760-cdd3-47de-a8f5-15dd5af09e2f
-    id: crop_crop
-    weight: 1
+  7ef2945a-7ff4-4135-80f8-54d02d4f6470:
+    uuid: 7ef2945a-7ff4-4135-80f8-54d02d4f6470
+    id: focal_point_scale_and_crop
+    weight: 2
     data:
-      crop_type: portrait_to_landscape
+      width: 480
+      height: 270

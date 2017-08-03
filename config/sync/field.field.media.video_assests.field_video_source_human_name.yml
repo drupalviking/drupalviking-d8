@@ -1,0 +1,19 @@
+uuid: 3a25369a-578f-4f7b-ae41-9f84911c59a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_source_human_name
+    - media_entity.bundle.video_assests
+id: media.video_assests.field_video_source_human_name
+field_name: field_video_source_human_name
+entity_type: media
+bundle: video_assests
+label: 'Video Source Human Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

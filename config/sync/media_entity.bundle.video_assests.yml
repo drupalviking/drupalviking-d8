@@ -1,0 +1,24 @@
+uuid: f502fd26-a78e-41ca-aa8e-1809f5cc52be
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - video_embed_media
+third_party_settings:
+  crop:
+    image_field: null
+id: video_assests
+label: 'Video assests'
+description: ''
+type: video_embed_field
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_media_video_embed_field
+field_map:
+  id: field_video_id
+  source: field_video_source_machine_name
+  source_name: field_video_source_human_name
+  image_local: field_thumbnail_image_url
+  image_local_uri: field_uri_of_locally_saved_image

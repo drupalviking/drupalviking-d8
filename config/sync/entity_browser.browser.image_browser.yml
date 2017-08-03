@@ -32,7 +32,7 @@ widgets:
       multiple: '1'
       submit_text: 'Select files'
     uuid: d9067d4c-ecbe-48a0-8884-b1ec0bcd0933
-    weight: 1
+    weight: -9
     label: 'Upload images'
     id: media_entity_image_upload
   c766cb66-5a5c-4574-b53d-0f6f89607ea8:
@@ -42,7 +42,7 @@ widgets:
       submit_text: 'Select entities'
       auto_select: false
     uuid: c766cb66-5a5c-4574-b53d-0f6f89607ea8
-    weight: 2
+    weight: -10
     label: View
     id: view
   63a3c354-c7ad-461f-a93c-6e065b56d6fe:
@@ -55,6 +55,6 @@ widgets:
       submit_text: 'Select entities'
       auto_select: false
     uuid: 63a3c354-c7ad-461f-a93c-6e065b56d6fe
-    weight: 3
+    weight: -8
     label: dropzonejs_media_entity
     id: dropzonejs_media_entity

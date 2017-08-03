@@ -1,0 +1,10 @@
+uuid: 427f515f-3621-4ea7-9d10-0599385aa7f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.portrait_270x480
+label: 'Portrait 270x480'
+targetEntityType: media
+cache: true

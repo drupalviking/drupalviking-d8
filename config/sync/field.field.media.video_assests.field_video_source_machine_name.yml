@@ -1,0 +1,19 @@
+uuid: 153acb25-33f8-4c2b-80dd-166dc0777619
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_video_source_machine_name
+    - media_entity.bundle.video_assests
+id: media.video_assests.field_video_source_machine_name
+field_name: field_video_source_machine_name
+entity_type: media
+bundle: video_assests
+label: 'Video Source Machine Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

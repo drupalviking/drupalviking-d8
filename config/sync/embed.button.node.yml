@@ -14,4 +14,7 @@ type_settings:
   entity_type: node
   bundles: {  }
   display_plugins: {  }
+  entity_browser: blog_content_browser
+  entity_browser_settings:
+    display_review: true
 icon_uuid: null

@@ -1,0 +1,7 @@
+uuid: 632eea9d-ebdc-4b1e-8721-8dadc6e6bb6c
+langcode: en
+status: true
+dependencies: {  }
+formId: captcha_point_add_form
+captchaType: recaptcha/reCAPTCHA
+label: captcha_point_add_form

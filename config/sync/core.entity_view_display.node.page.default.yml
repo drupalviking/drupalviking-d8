@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_main_image
     - node.type.page
   module:
     - text
@@ -18,11 +19,22 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 100
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
-  links:
-    weight: 101
+  field_main_image:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: portrait_270x480
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
     region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }

@@ -1,0 +1,30 @@
+uuid: 558be3bb-43b2-4dda-a923-e13df6ec8dd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.portrait_270x480
+    - field.field.media.images.field_image_source
+    - image.style.270x480
+    - media_entity.bundle.images
+  module:
+    - image
+id: media.images.portrait_270x480
+targetEntityType: media
+bundle: images
+mode: portrait_270x480
+content:
+  field_image_source:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: 270x480
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true
