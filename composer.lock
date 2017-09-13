@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c2f67692791f1318a58030672e40eee",
+    "content-hash": "d32e3f8ecfb41b7386c464b00882ef14",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -7230,16 +7230,16 @@
         },
         {
             "name": "thememachine/eleven",
-            "version": "dev-119-table-padding",
+            "version": "8.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thememachine/eleven.git",
-                "reference": "92b70f0d0f193a5ed958511ac387c7142857d332"
+                "reference": "b31e7e5b3f53ae45118ac48bb6b081f031e3913f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thememachine/eleven/zipball/92b70f0d0f193a5ed958511ac387c7142857d332",
-                "reference": "92b70f0d0f193a5ed958511ac387c7142857d332",
+                "url": "https://api.github.com/repos/thememachine/eleven/zipball/b31e7e5b3f53ae45118ac48bb6b081f031e3913f",
+                "reference": "b31e7e5b3f53ae45118ac48bb6b081f031e3913f",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -7248,10 +7248,10 @@
             ],
             "description": "this one goes to 11",
             "support": {
-                "source": "https://github.com/thememachine/eleven/tree/119-table-padding",
+                "source": "https://github.com/thememachine/eleven/tree/8.0-beta1",
                 "issues": "https://github.com/thememachine/eleven/issues"
             },
-            "time": "2017-07-03 21:27:05"
+            "time": "2017-08-01T19:59:48+00:00"
         },
         {
             "name": "twig/twig",
@@ -9022,7 +9022,7 @@
         "drupal/media_entity_spotify": 10,
         "drupal/page_manager": 10,
         "drupal/redirect": 15,
-        "thememachine/eleven": 20
+        "thememachine/eleven": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,

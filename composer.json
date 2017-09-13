@@ -101,7 +101,7 @@
         "enyo/dropzone": "^5.1",
         "desandro/masonry": "3.3.2",
         "desandro/imagesloaded": "3.2.0",
-        "thememachine/eleven": "dev-119-table-padding",
+        "thememachine/eleven": "^8.0@beta",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
     },
