@@ -1,0 +1,22 @@
+uuid: fcad86e7-afc6-476e-ae9d-0a10b7e8cf14
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eleven
+_core:
+  default_config_hash: sHZYmF1Y-6UmFfQHzs5Nt6lSe7eabD6y8gAf0Klgkh8
+id: eleven_content
+theme: eleven
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
