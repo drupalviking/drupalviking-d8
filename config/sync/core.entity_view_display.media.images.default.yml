@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.field.media.images.field_image_source
     - image.style.480x270
-    - media_entity.bundle.images
+    - media.type.images
   module:
     - image
 id: media.images.default

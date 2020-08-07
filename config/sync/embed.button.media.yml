@@ -2,11 +2,11 @@ uuid: b0f0506d-c702-4878-9338-dfba06b4588e
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'file:file:394ee43a-fe1e-49fb-94b3-c90095fbab35'
+  config:
+    - entity_browser.browser.browse_files
   module:
     - entity_embed
-    - media_entity
+    - media
 label: Media
 id: media
 type_id: entity
@@ -17,4 +17,7 @@ type_settings:
   entity_browser: browse_files
   entity_browser_settings:
     display_review: true
-icon_uuid: 394ee43a-fe1e-49fb-94b3-c90095fbab35
+icon:
+  data: ''
+  uri: 'public://embed_buttons/media_embed_button.png'
+icon_uuid: null

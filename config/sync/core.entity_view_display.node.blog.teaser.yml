@@ -5,6 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.blog.body
+    - field.field.node.blog.field_blog_comments
+    - field.field.node.blog.field_category
+    - field.field.node.blog.field_main_image
+    - field.field.node.blog.field_tags
     - node.type.blog
   module:
     - text
@@ -25,4 +29,10 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_blog_comments: true
+  field_category: true
+  field_main_image: true
+  field_tags: true

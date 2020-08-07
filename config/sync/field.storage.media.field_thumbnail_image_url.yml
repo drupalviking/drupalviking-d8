@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
 id: media.field_thumbnail_image_url
 field_name: field_thumbnail_image_url
 entity_type: media

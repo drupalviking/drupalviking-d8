@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.media.field_media_video_embed_field
-    - media_entity.bundle.video_assests
+    - media.type.video_assests
   module:
     - video_embed_field
 id: media.video_assests.field_media_video_embed_field

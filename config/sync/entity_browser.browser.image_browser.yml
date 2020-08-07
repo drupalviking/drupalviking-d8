@@ -3,12 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.images
+    - media.type.images
     - views.view.image_assets
   module:
     - dropzonejs_eb_widget
-    - media_entity
-    - media_entity_image
+    - media
+    - media
     - views
 name: image_browser
 label: 'Image browser'
@@ -29,7 +29,7 @@ widgets:
       extensions: 'jpg jpeg png gif'
       media_bundle: images
       upload_location: 'public://'
-      multiple: '1'
+      multiple: true
       submit_text: 'Select files'
     uuid: d9067d4c-ecbe-48a0-8884-b1ec0bcd0933
     weight: -9
@@ -52,6 +52,12 @@ widgets:
       dropzone_description: 'Drop files here to upload them'
       max_filesize: 500M
       extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      clientside_resize: false
+      resize_width: 0
+      resize_height: 0
+      resize_quality: !!float 1
+      resize_method: contain
+      thumbnail_method: contain
       submit_text: 'Select entities'
       auto_select: false
     uuid: 63a3c354-c7ad-461f-a93c-6e065b56d6fe

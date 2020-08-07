@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
 id: media.field_uri_of_locally_saved_image
 field_name: field_uri_of_locally_saved_image
 entity_type: media

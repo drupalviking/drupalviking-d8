@@ -9,8 +9,9 @@ dependencies:
     - field.field.media.video_assests.field_video_id
     - field.field.media.video_assests.field_video_source_human_name
     - field.field.media.video_assests.field_video_source_machine_name
-    - media_entity.bundle.video_assests
+    - media.type.video_assests
   module:
+    - path
     - video_embed_field
 id: media.video_assests.default
 targetEntityType: media
@@ -37,6 +38,12 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
     weight: 2
@@ -44,6 +51,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     region: content
     third_party_settings: {  }
 hidden:

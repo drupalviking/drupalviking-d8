@@ -9,7 +9,7 @@ dependencies:
     - field.field.media.video_assests.field_video_id
     - field.field.media.video_assests.field_video_source_human_name
     - field.field.media.video_assests.field_video_source_machine_name
-    - media_entity.bundle.video_assests
+    - media.type.video_assests
   module:
     - video_embed_field
 id: media.video_assests.default

@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
 id: media.portrait_270x480
 label: 'Portrait 270x480'
 targetEntityType: media
