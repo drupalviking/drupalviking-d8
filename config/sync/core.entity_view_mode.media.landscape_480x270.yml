@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
 id: media.landscape_480x270
 label: 'Landscape 480x270'
 targetEntityType: media

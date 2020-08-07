@@ -6,7 +6,7 @@ dependencies:
     - core.entity_view_mode.media.portrait_270x480
     - field.field.media.images.field_image_source
     - image.style.270x480
-    - media_entity.bundle.images
+    - media.type.images
   module:
     - image
 id: media.images.portrait_270x480

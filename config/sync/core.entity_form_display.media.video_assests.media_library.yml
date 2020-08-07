@@ -1,0 +1,37 @@
+uuid: 14b53aa9-5138-4738-9293-46b89a6cb0d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.video_assests.field_media_video_embed_field
+    - field.field.media.video_assests.field_thumbnail_image_url
+    - field.field.media.video_assests.field_uri_of_locally_saved_image
+    - field.field.media.video_assests.field_video_id
+    - field.field.media.video_assests.field_video_source_human_name
+    - field.field.media.video_assests.field_video_source_machine_name
+    - media.type.video_assests
+id: media.video_assests.media_library
+targetEntityType: media
+bundle: video_assests
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_media_video_embed_field: true
+  field_thumbnail_image_url: true
+  field_uri_of_locally_saved_image: true
+  field_video_id: true
+  field_video_source_human_name: true
+  field_video_source_machine_name: true
+  path: true
+  status: true
+  uid: true
