@@ -42,7 +42,7 @@
             "type": "package",
             "package": {
                 "name": "enyo/dropzone",
-                "version": "4.2.0",
+                "version": "5.9.3",
                 "type": "drupal-library",
                 "source": {
                     "url": "https://github.com/enyo/dropzone",
@@ -53,8 +53,9 @@
         }
     },
     "require": {
-        "composer/installers": "^1.2",
-        "cweagans/composer-patches": "^1.6",
+        "ext-json": "*",
+        "composer/installers": "^1",
+        "cweagans/composer-patches": "^1.9",
         "desandro/imagesloaded": "3.2.0",
         "desandro/masonry": "3.3.2",
         "drupal/adminimal_admin_toolbar": "^1.5",
@@ -65,13 +66,14 @@
         "drupal/console": "~1.0",
         "drupal/contact_storage": "^1.0@beta",
         "drupal/content_browser": "^1.0@alpha",
-        "drupal/core-composer-scaffold": "^8.9",
-        "drupal/core-recommended": "^8.9",
-        "drupal/dropzonejs": "^1.0@alpha",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "drupal/core-recommended": "^9",
+        "drupal/dropzonejs": "^2",
         "drupal/ds": "^3.1",
         "drupal/entity_browser": "^1.0",
         "drupal/entity_browser_enhanced": "^1.0@beta",
-        "drupal/file_browser": "^1.1",
+        "drupal/file_browser": "^1",
         "drupal/focal_point": "^1.0@beta",
         "drupal/google_analytics": "^2.1",
         "drupal/honeypot": "^1.27",
@@ -97,8 +99,8 @@
         "drupal/video_embed_field": "^2.0",
         "drupal/video_embed_media": "^2.0",
         "drupal/views_slideshow": "^4.5",
-        "drush/drush": "^9.0.0",
         "enyo/dropzone": "^5.1",
+        "oomphinc/composer-installers-extender": "^2",
         "webflo/drupal-finder": "^1.0.0"
     },
     "require-dev": {
@@ -117,7 +119,15 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-      "sort-packages": true
+      "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/console-extend-plugin": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "oomphinc/composer-installers-extender": true
+        }
     },
     "autoload": {
         "classmap": [
